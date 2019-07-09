@@ -1,5 +1,8 @@
 #![allow(non_camel_case_types)]
 
+#[cfg(test)]
+mod tests;
+
 use winapi::{
     shared::{
         minwindef::{BOOL, HMODULE, LPCVOID, PDWORD, DWORD, LPVOID, HINSTANCE},
